@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         btnEmpezar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent2 = new Intent(MainActivity.this,LoginActivity.class);
+                Intent intent2 = new Intent(MainActivity.this,Login.class);
                 startActivity(intent2);
             }
         });
