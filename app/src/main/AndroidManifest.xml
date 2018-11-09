@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.arm.herecompanion">
 
+    <meta-data android:name="com.here.android.maps.appid" android:value="8aqAjTVHVGauGaG0OYmj"/>
+    <meta-data android:name="com.here.android.maps.apptoken" android:value="nvJAakm95b1Kpcy1PngrtQ"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
